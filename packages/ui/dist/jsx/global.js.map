@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/global.ts"],
+  "sourcesContent": ["import { config } from '@my/config'\n\nexport type Conf = typeof config\n\ndeclare module 'tamagui' {\n  interface TamaguiCustomConfig extends Conf {}\n}\n\nexport default config\n"],
+  "mappings": "AAAA;AAQA,IAAO,iBAAQ;",
+  "names": []
+}
