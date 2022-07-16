@@ -62,6 +62,9 @@ const lightTheme = createTheme({
   backgroundFocus: myTokens.color.gray5Light,
   borderColor: myTokens.color.gray4Light,
   borderColorHover: myTokens.color.gray6Light,
+  borderColorFocus: myTokens.color.gray4Light,
+  borderColorPress: myTokens.color.gray4Light,
+
   color: myTokens.color.gray12Light,
   colorHover: myTokens.color.gray11Light,
   colorPress: myTokens.color.gray10Light,
@@ -84,12 +87,16 @@ const darkTheme: BaseTheme = {
   backgroundFocus: myTokens.color.gray4Dark,
   borderColor: myTokens.color.gray3Dark,
   borderColorHover: myTokens.color.gray4Dark,
+  borderColorFocus: myTokens.color.gray4Light,
+  borderColorPress: myTokens.color.gray4Light,
+
   color: '#ddd',
   colorHover: myTokens.color.gray11Dark,
   colorPress: myTokens.color.gray10Dark,
   colorFocus: myTokens.color.gray6Dark,
   shadowColor: myTokens.color.grayA6Dark,
   shadowColorHover: myTokens.color.grayA7Dark,
+
   primary: myTokens.color.redUS,
   secondary: myTokens.color.blueUS2,
 }
